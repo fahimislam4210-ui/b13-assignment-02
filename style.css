@@ -7,8 +7,12 @@
   font-optical-sizing: auto;
 }
 
-header{
+body{
     width: 1600px;
+}
+
+header{
+    /* width: 1600px; */
     /* border: 2px solid goldenrod; */
     
    
@@ -181,6 +185,82 @@ border: 1px solid #00FF88;
     font-size: 16px;
     font-weight: 400;
     color: #FFFFFF;
+}
+
+.main-box{
+    height: 1120px;
+    padding: 120px 200px;
+  background-color: #230E3D;
+}
+
+.main-box-header{
+    /* border: 1px solid gold; */
+    height: 59px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+ 
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.grid-box-one{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.grid-box-two{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.grid-box-third{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.grid-box-four{
+    grid-column:  span 2;
+    grid-row: span 1;
+
+}
+.grid-box-five{
+grid-column: span 1;
+grid-row: span 1;
+}
+
+.card{
+
+background-color: #351165;
+border-radius: 40px;
+padding: 40px;
+border: 1px solid rgba(255, 255, 255, 0.05);
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 16px;
+
+transition: transform 0.3s ease; 
+
+}
+
+.main-box h3{
+    font-size:24px;
+    font-weight: 700;
+    
+}
+
+.main-box p{
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
