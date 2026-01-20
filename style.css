@@ -255,12 +255,180 @@ transition: transform 0.3s ease;
 .main-box h3{
     font-size:24px;
     font-weight: 700;
-    
 }
 
 .main-box p{
     font-size: 16px;
     font-weight: 400;
 }
+
+.episode-section{
+    border: 3px solid greenyellow;
+    height: 1277px;
+}
+
+
+
+
+
+
+
+
+.card-text-link{
+    /* border: 2px solid gold; */
+    height: 1278px;
+    background-color: #1A0B2E;
+   padding: 120px 200px;
+
+}
+
+.section-title{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+.section-title {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 28px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  
+
+}
+
+.link-card {
+  width: 380px;
+  /* background: #1e003e; */
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s;
+  background-color: rgba(37, 13, 68, 1);
+}
+
+.link-card:hover {
+  transform: translateY(-8px);
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.thumbnail img {
+  width: 100%;
+  display: block;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+  color: white;
+  font-size: 24px;
+  padding: 12px 18px;
+  border-radius: 50%;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  font-size: 14px;
+  margin-bottom: 10px;
+color: #FFFFFF;
+}
+.duration {
+  font-size: 13px;
+  font-weight: 400;
+  color: #00FF88;
+}
+
+
+.host-div{
+    border: 2px solid greenyellow;
+    height: 280px;
+   
+    margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 412px;
+    background-image: url(./footer-bg.png);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-container{
+    border: 2px solid gold;
+    width: 1360px;
+    height: 172px;
+   padding: 120px;
+}
+
+.footer-logo img{
+    width: 410px;
+    height: 60px;
+}
+
+.social-links{
+   
+  
+    gap: 40px;
+    display: flex;
+   justify-content: center;
+    /* justify-content: space-between; */
+    text-align: center;
+    list-style: none;
+    color: #FFFFFF;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
 
 
